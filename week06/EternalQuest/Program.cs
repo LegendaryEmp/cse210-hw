@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        // Exceeds requirements: the program displays a level title based on the
+        // player's score, adding a simple gamification reward as points increase.
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
